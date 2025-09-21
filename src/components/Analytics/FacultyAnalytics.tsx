@@ -6,7 +6,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart,
 import { 
   AcademicCapIcon, 
   UserGroupIcon, 
-  TrendingUpIcon,
+  ArrowTrendingUpIcon,
   CalendarIcon,
   ClockIcon,
   ChartBarIcon
@@ -115,6 +115,7 @@ const FacultyAnalytics: React.FC = () => {
               <p className="text-2xl font-semibold text-gray-900 dark:text-white">85.7%</p>
             </div>
             <TrendingUpIcon className="h-8 w-8 text-green-500" />
+            <ArrowTrendingUpIcon className="h-8 w-8 text-green-500" />
           </div>
         </div>
 

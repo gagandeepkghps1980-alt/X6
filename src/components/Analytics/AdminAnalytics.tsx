@@ -7,8 +7,8 @@ import {
   CogIcon, 
   UserGroupIcon, 
   CalendarIcon,
-  TrendingUpIcon,
-  TrendingDownIcon,
+  ArrowTrendingUpIcon,
+  ArrowTrendingDownIcon,
   ExclamationTriangleIcon,
   ChartBarIcon,
   AcademicCapIcon
@@ -179,6 +179,7 @@ const AdminAnalytics: React.FC = () => {
               </p>
             </div>
             <TrendingUpIcon className="h-8 w-8 text-orange-500" />
+            <ArrowTrendingUpIcon className="h-8 w-8 text-orange-500" />
           </div>
         </div>
       </div>

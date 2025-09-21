@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { apiService } from '../../services/api';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, LineChart, Line, PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { 
-  TrendingUpIcon, 
+  ArrowTrendingUpIcon, 
   CalendarIcon, 
   ClockIcon,
   AcademicCapIcon,
