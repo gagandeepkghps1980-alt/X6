@@ -6,8 +6,8 @@ import {
   UserGroupIcon, 
   CalendarIcon, 
   ClockIcon, 
-  TrendingUpIcon, 
-  TrendingDownIcon,
+  ArrowTrendingUpIcon, 
+  ArrowTrendingDownIcon,
   ExclamationTriangleIcon,
   CheckCircleIcon,
   XCircleIcon,
@@ -153,7 +153,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.attendance_summary?.attendance_rate?.toFixed(1) || 0}%
               </p>
             </div>
-            <TrendingUpIcon className="h-8 w-8 text-purple-500" />
+            <ArrowTrendingUpIcon className="h-8 w-8 text-purple-500" />
           </div>
         </div>
       </div>
@@ -235,7 +235,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.today_stats?.average_attendance?.toFixed(1) || 0}%
               </p>
             </div>
-            <TrendingUpIcon className="h-8 w-8 text-purple-500" />
+            <ArrowTrendingUpIcon className="h-8 w-8 text-purple-500" />
           </div>
         </div>
       </div>
@@ -333,7 +333,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.overview?.overall_attendance_rate?.toFixed(1) || 87.5}%
               </p>
             </div>
-            <TrendingUpIcon className="h-8 w-8 text-orange-500" />
+            <ArrowTrendingUpIcon className="h-8 w-8 text-orange-500" />
           </div>
         </div>
       </div>
