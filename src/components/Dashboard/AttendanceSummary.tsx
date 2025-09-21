@@ -8,12 +8,12 @@ import {
   ClockIcon, 
   TrendingUpIcon, 
   TrendingDownIcon,
-  RefreshCcwIcon,
   ExclamationTriangleIcon,
   CheckCircleIcon,
   XCircleIcon,
   AcademicCapIcon
 } from '@heroicons/react/24/outline';
+import { RefreshCw } from 'lucide-react';
 
 interface AttendanceSummaryProps {
   setActiveSection: (section: string) => void;
@@ -391,7 +391,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
             onClick={fetchAttendanceSummary}
             className="ml-auto p-2 text-red-600 hover:text-red-800 transition-colors"
           >
-            <RefreshCcwIcon className="h-5 w-5" />
+            <RefreshCw className="h-5 w-5" />
           </button>
         </div>
       </div>
@@ -414,7 +414,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
             className="p-2 text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-white/20 dark:hover:bg-gray-800/20 rounded-xl transition-all duration-200"
             aria-label="Refresh data"
           >
-            <RefreshCcwIcon className="h-5 w-5" />
+            <RefreshCw className="h-5 w-5" />
           </button>
           <button
             onClick={() => setActiveSection('analytics')}

@@ -11,9 +11,9 @@ import {
   TrendingDownIcon,
   ExclamationTriangleIcon,
   ChartBarIcon,
-  RefreshCcwIcon,
   AcademicCapIcon
 } from '@heroicons/react/24/outline';
+import { RefreshCw } from 'lucide-react';
 
 const AdminAnalytics: React.FC = () => {
   const { user } = useAuth();
@@ -127,7 +127,7 @@ const AdminAnalytics: React.FC = () => {
           onClick={fetchAnalytics}
           className="flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
         >
-          <RefreshCcwIcon className="w-4 h-4 mr-2" />
+          <RefreshCw className="w-4 h-4 mr-2" />
           Refresh
         </button>
       </div>

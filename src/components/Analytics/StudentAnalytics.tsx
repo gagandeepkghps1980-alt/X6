@@ -8,8 +8,8 @@ import {
   ClockIcon,
   AcademicCapIcon,
   ChartBarIcon,
-  RefreshCcwIcon
 } from '@heroicons/react/24/outline';
+import { RefreshCw } from 'lucide-react';
 
 const StudentAnalytics: React.FC = () => {
   const { user } = useAuth();
@@ -93,7 +93,7 @@ const StudentAnalytics: React.FC = () => {
           onClick={fetchAnalytics}
           className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
         >
-          <RefreshCcwIcon className="w-4 h-4 mr-2" />
+          <RefreshCw className="w-4 h-4 mr-2" />
           Refresh
         </button>
       </div>
