@@ -178,7 +178,6 @@ const AdminAnalytics: React.FC = () => {
                 {analyticsData?.systemOverview?.system_uptime}%
               </p>
             </div>
-            <TrendingUpIcon className="h-8 w-8 text-orange-500" />
             <ArrowTrendingUpIcon className="h-8 w-8 text-orange-500" />
           </div>
         </div>
